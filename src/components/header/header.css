@@ -1,0 +1,131 @@
+header {
+    height          : 100vh;
+    padding-top     : 4rem;
+    background-image: url(../../assets/img/banner-bg.png);
+}
+
+.header__container {
+    text-align           : center;
+    height               : 100%;
+    position             : relative;
+    display              : grid;
+    grid-template-columns: 35% 50%;
+    gap                  : 10%;
+    padding-top          : 7rem;
+}
+
+/*============================================ CTA =====================================*/
+.cta {
+    margin-top     : 2.5rem;
+    display        : flex;
+    gap            : 1.2rem;
+    justify-content: center;
+}
+
+/*============================================ SOCIALS =====================================*/
+.header__socials {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    gap           : 0.8rem;
+    position      : absolute;
+    left          : 0;
+    bottom        : 5rem;
+}
+
+.header__socials::after {
+    content   : '';
+    width     : 1px;
+    height    : 2rem;
+    background: var(--color-primary);
+}
+
+/*============================================ ME =====================================*/
+.me {
+    background   : linear-gradient(purple, transparent);
+    width        : 40rem;
+    height       : 40rem;
+    position     : absolute;
+    left         : calc(70% - 8rem);
+    margin-top   : 6rem;
+    border-radius: 6rem 6rem 0 0;
+    overflow     : hidden;
+    padding      : 5rem 0 0 0;
+}
+
+/*============================================ SCROLL DOWN =====================================*/
+.scroll__down {
+    position   : absolute;
+    right      : -2.3rem;
+    bottom     : 5rem;
+    transform  : rotate(90deg);
+    font-weight: 300;
+    font-size  : 0.9rem;
+}
+
+/*============================================ MEDIA QUERIES (MEDIUM DEVICES) =====================================*/
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+        padding-top     : 0rem;
+    }
+
+    .header__container {
+        text-align: center;
+        height    : 100%;
+        position  : relative;
+        display:flex;
+        flex-direction: column;
+        padding-top     : 3rem;
+    }
+
+    .header__socials {
+        height        : 8rem;
+        display       : flex;
+        flex-direction: row;
+        align-items   : center;
+        gap           : 0.8rem;
+        position      : absolute;
+        bottom        : 0;
+        left          : calc(50% - 3rem);
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+
+    .me {
+        width        : 23rem;
+        height       : 23rem;
+        left         : calc(50% - 11.50rem);
+        margin-top   : 20rem;
+        border-radius: 4rem 4rem 0 0;
+    }
+}
+
+
+/*============================================ MEDIA QUERIES (SMALL DEVICES) =====================================*/
+@media screen and (max-width: 375px) {
+    header{
+        height: 100vh;
+        padding-top     : 0;
+    }
+    .header__socials, .scroll__down {
+        display: none;
+    }
+    .me {
+        width        : 15rem;
+        height       : 15rem;
+        left         : calc(50% - 8rem);
+        margin-top   : 20rem;
+        border-radius: 4rem 4rem 0 0;
+    }
+    .header__container {
+        padding-top     : 2.5rem;
+    }
+    .cta {
+        padding-top     : 2rem;
+    }
+
+    
+}
