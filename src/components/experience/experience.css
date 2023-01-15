@@ -1,6 +1,6 @@
 .experience__container {
     display              : grid;
-   grid-template-columns: 65% 30%;
+    grid-template-columns: 65% 30%;
     gap                  : 2rem;
 }
 
@@ -41,12 +41,19 @@
 }
 
 .experience__container>.experience__me {
-    background: transparent;
+    background   : linear-gradient(90deg, purple, rgb(37, 26, 87));
     border-radius: 2rem;
     width        : 58.5rem;
     height       : 30rem;
     display      : grid;
     place-items  : center;
+    transition   : var(--transition);
+}
+
+.experience__container>.experience__me:hover {
+    background  : transparent;
+    border-color: var(--color-primary-variant);
+    cursor      : default;
 }
 
 /*============================================ MEDIA QUERIES (MEDIUM DEVICES) =====================================*/
@@ -54,9 +61,10 @@
     .experience__container {
         grid-template-columns: 1fr;
     }
-    .experience__container>.experience__me{
+
+    .experience__container>.experience__me {
         display: none;
-      }
+    }
 
     .experience__container>div {
         width  : 80%;
@@ -74,9 +82,11 @@
     .experience__container {
         gap: 1rem;
     }
-    .experience__container>.experience__me{
-      display: none;
+
+    .experience__container>.experience__me {
+        display: none;
     }
+
     .experience__container>div {
         width  : 100%;
         padding: 2rem 1rem;

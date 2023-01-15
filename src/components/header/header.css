@@ -43,8 +43,8 @@ header {
 /*============================================ ME =====================================*/
 .me {
     background   : linear-gradient(purple, transparent);
-    width        : 40rem;
-    height       : 40rem;
+    width        : 40%;
+    height       : 65%;
     position     : absolute;
     left         : calc(70% - 8rem);
     margin-top   : 6rem;
@@ -95,9 +95,9 @@ header {
     }
 
     .me {
-        width        : 23rem;
-        height       : 23rem;
-        left         : calc(50% - 11.50rem);
+        width        : 85%;
+        height       : 55%;
+        left         : calc(50% - 42.5%);
         margin-top   : 20rem;
         border-radius: 4rem 4rem 0 0;
     }
@@ -105,7 +105,7 @@ header {
 
 
 /*============================================ MEDIA QUERIES (SMALL DEVICES) =====================================*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     header{
         height: 100vh;
         padding-top     : 0;
@@ -114,9 +114,9 @@ header {
         display: none;
     }
     .me {
-        width        : 15rem;
-        height       : 15rem;
-        left         : calc(50% - 8rem);
+        width        : 85%;
+        height       : 40%;
+        left         : calc(50% - 42.5%);
         margin-top   : 20rem;
         border-radius: 4rem 4rem 0 0;
     }
