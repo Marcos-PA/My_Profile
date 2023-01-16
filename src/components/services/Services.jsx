@@ -9,55 +9,55 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Java</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Compreensão básica dos mecanismos de carregamento das classes em Java </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Experiência com bases de dados </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Compreensão dos princípios fundamentais do design </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Capacidade de escrever bibliotecas de linguagem Java reutilizáveis </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Compreensão sólida da programação orientada a objetos </p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Web Development </h3>
+            <h3> Web Development </h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Crianção de Sites HTML/CSS</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Conhecimento de Controle de Versão </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Design responsivo </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Criação e Manipulação de BD MySQL </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Criação De Sites com React </p>
             </li>
           </ul>
         </article>
@@ -68,23 +68,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Criação de Tabelas Exel </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Manipulação e Tratamento de Dados </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Criação de Planilhas com Power-BI </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Wireframing lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>Refinamento de Dados </p>
             </li>
           </ul>
         </article>
