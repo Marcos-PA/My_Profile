@@ -19,16 +19,16 @@ const About = () => {
             <article className='about__card' >
               <FaAward className='about__icon' />
               <h5>Programming</h5>
-              <small>2+ Ano de estudo </small>
+              <small>2+ years of studying </small>
             </article>
             <article className='about__card' >
               <FaAward className='about__icon' />
-              <h5>IT</h5>
-              <small>3+ anos de experiencia</small>
+              <h5>IT technician</h5>
+              <small>3+ years of experience</small>
             </article>
           </div>
           <p>
-            I am a passionate programmer and I love to learn new things. I have been working as a IT Technical for 3 years and I have been studying programming for 2 year. I am currently studying at the PUC-Minas, where I am studying Software Engineering. I am currently open to work as programmer.
+          I'm a passionate programmer and I love to learn new things. I have worked as an administrative assistant for 2 years with some small jobs as an IT guy and have been studying programming for 3 years. I'm currently attending majoring in Software Engineering at PUC-Minas with expected graduation in December 2024. I am presently open to opportunities to work as a programmer or trainee.
           </p>
 
           <a href='#contact' className='btn btn__primary'>Let's Talk</a>

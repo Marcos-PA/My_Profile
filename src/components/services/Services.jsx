@@ -12,25 +12,13 @@ const Services = () => {
             <h3>Java</h3>
           </div>
           <ul className='service__list'>
-            <li>
+            {/*<li>
               <BiCheck className='service__list-icon' />
               <p>Compreensão básica dos mecanismos de carregamento das classes em Java </p>
-            </li>
+  </li>*/}
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Experiência com bases de dados </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Compreensão dos princípios fundamentais do design </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Capacidade de escrever bibliotecas de linguagem Java reutilizáveis </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Compreensão sólida da programação orientada a objetos </p>
+              <p>Waiting for the first opportunity</p>
             </li>
           </ul>
         </article>
@@ -63,24 +51,12 @@ const Services = () => {
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Data Scince</h3>
+            <h3>Data Science</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Criação de Tabelas Exel </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Manipulação e Tratamento de Dados </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Criação de Planilhas com Power-BI </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Refinamento de Dados </p>
+              <p>Waiting for the first opportunity</p>
             </li>
           </ul>
         </article>
