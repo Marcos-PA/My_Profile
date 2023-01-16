@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Profile/static/css/main.7ea27afd.css",
-    "main.js": "/My_Profile/static/js/main.aa0ac538.js",
+    "main.css": "/My_Profile/static/css/main.972d6ebc.css",
+    "main.js": "/My_Profile/static/js/main.e07dfbee.js",
     "static/media/portfolio5.png": "/My_Profile/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/banner-bg.png": "/My_Profile/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/CV.pdf": "/My_Profile/static/media/CV.2c6639dd90a8f2005124.pdf",
@@ -14,11 +14,11 @@
     "static/media/me_programming.svg": "/My_Profile/static/media/me_programming.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/experience.svg": "/My_Profile/static/media/experience.e352821f097af44e134ba05180605b96.svg",
     "index.html": "/My_Profile/index.html",
-    "main.7ea27afd.css.map": "/My_Profile/static/css/main.7ea27afd.css.map",
-    "main.aa0ac538.js.map": "/My_Profile/static/js/main.aa0ac538.js.map"
+    "main.972d6ebc.css.map": "/My_Profile/static/css/main.972d6ebc.css.map",
+    "main.e07dfbee.js.map": "/My_Profile/static/js/main.e07dfbee.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea27afd.css",
-    "static/js/main.aa0ac538.js"
+    "static/css/main.972d6ebc.css",
+    "static/js/main.e07dfbee.js"
   ]
 }
