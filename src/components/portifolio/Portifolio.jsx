@@ -1,6 +1,6 @@
 import React from 'react'
 import './portifolio.css'
-import IMG1 from '../../assets/img/portfolio1.jpg'
+import IMG1 from '../../assets/img/portfolio7.png'
 import IMG2 from '../../assets/img/portfolio2.jpg'
 import IMG3 from '../../assets/img/portfolio3.jpg'
 import IMG4 from '../../assets/img/portfolio4.jpg'
@@ -10,10 +10,11 @@ import IMG6 from '../../assets/img/portfolio6.jpg'
 const data = [
   {
     id: 1,
-    title: 'This portfolio item is under development',
+    title: 'A project that simulates a web social midia, made with HTML, CSS, and JS',
     image: IMG1,
-    github: 'https://github.com/Marcos-PA',
-    demo: 'https://github.com/Marcos-PA',
+    github: 'https://github.com/Marcos-PA/Web-Social-Midia',
+    demo: 'https://marcos-pa.github.io/Web-Social-Midia/',
+    classe:'fineshed',
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const data = [
     image: IMG2,
     github: 'https://github.com/Marcos-PA',
     demo: 'https://github.com/Marcos-PA',
+    classe:'on-working',
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const data = [
     image: IMG3,
     github: 'https://github.com/Marcos-PA',
     demo: 'https://github.com/Marcos-PA',
+    classe:'on-working',
   },
   {
     id: 4,
@@ -35,6 +38,7 @@ const data = [
     image: IMG4,
     github: 'https://github.com/Marcos-PA',
     demo: 'https://github.com/Marcos-PA',
+    classe:'on-working',
   },
   {
     id: 5,
@@ -42,6 +46,7 @@ const data = [
     image: IMG5,
     github: 'https://github.com/Marcos-PA',
     demo: 'https://github.com/Marcos-PA',
+    classe:'on-working',
   },
   {
     id: 6,
@@ -49,6 +54,7 @@ const data = [
     image: IMG6,
     github: 'https://github.com/Marcos-PA',
     demo: 'https://github.com/Marcos-PA',
+    classe:'on-working',
   },
 
 ]
@@ -59,11 +65,11 @@ const Portifolio = () => {
       <h2>Portifolio</h2>
       <div className='container portfolio__container'>
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, github, demo, classe }) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
-                  <img src={image} alt={title} />
+                  <img src={image} className={classe} alt={title} />
                 </div>
                 <div className='portfolio__item-header'>
                   <h2> {title}</h2>
